@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="middlewares.png" />
     <None Remove="pipeline.png" />
   </ItemGroup>
 
