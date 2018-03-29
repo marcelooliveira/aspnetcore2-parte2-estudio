@@ -5,73 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="..\..\..\_Recursos\produtos\large_001.jpg" Link="wwwroot\images\produtos\large_001.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\..\..\_Recursos\produtos\large_002.jpg" Link="wwwroot\images\produtos\large_002.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_003.jpg" Link="wwwroot\images\produtos\large_003.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_004.jpg" Link="wwwroot\images\produtos\large_004.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_005.jpg" Link="wwwroot\images\produtos\large_005.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_006.jpg" Link="wwwroot\images\produtos\large_006.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_007.jpg" Link="wwwroot\images\produtos\large_007.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_008.jpg" Link="wwwroot\images\produtos\large_008.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_009.jpg" Link="wwwroot\images\produtos\large_009.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_010.jpg" Link="wwwroot\images\produtos\large_010.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_011.jpg" Link="wwwroot\images\produtos\large_011.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_012.jpg" Link="wwwroot\images\produtos\large_012.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_013.jpg" Link="wwwroot\images\produtos\large_013.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_014.jpg" Link="wwwroot\images\produtos\large_014.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_015.jpg" Link="wwwroot\images\produtos\large_015.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_016.jpg" Link="wwwroot\images\produtos\large_016.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_017.jpg" Link="wwwroot\images\produtos\large_017.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_018.jpg" Link="wwwroot\images\produtos\large_018.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_019.jpg" Link="wwwroot\images\produtos\large_019.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_020.jpg" Link="wwwroot\images\produtos\large_020.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_021.jpg" Link="wwwroot\images\produtos\large_021.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_022.jpg" Link="wwwroot\images\produtos\large_022.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_023.jpg" Link="wwwroot\images\produtos\large_023.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_024.jpg" Link="wwwroot\images\produtos\large_024.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_025.jpg" Link="wwwroot\images\produtos\large_025.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_026.jpg" Link="wwwroot\images\produtos\large_026.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_027.jpg" Link="wwwroot\images\produtos\large_027.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_028.jpg" Link="wwwroot\images\produtos\large_028.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_029.jpg" Link="wwwroot\images\produtos\large_029.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_030.jpg" Link="wwwroot\images\produtos\large_030.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_031.jpg" Link="wwwroot\images\produtos\large_031.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_032.jpg" Link="wwwroot\images\produtos\large_032.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_033.jpg" Link="wwwroot\images\produtos\large_033.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_034.jpg" Link="wwwroot\images\produtos\large_034.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_035.jpg" Link="wwwroot\images\produtos\large_035.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_036.jpg" Link="wwwroot\images\produtos\large_036.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_037.jpg" Link="wwwroot\images\produtos\large_037.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_038.jpg" Link="wwwroot\images\produtos\large_038.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_039.jpg" Link="wwwroot\images\produtos\large_039.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_040.jpg" Link="wwwroot\images\produtos\large_040.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_041.jpg" Link="wwwroot\images\produtos\large_041.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_042.jpg" Link="wwwroot\images\produtos\large_042.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_043.jpg" Link="wwwroot\images\produtos\large_043.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_044.jpg" Link="wwwroot\images\produtos\large_044.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_045.jpg" Link="wwwroot\images\produtos\large_045.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_046.jpg" Link="wwwroot\images\produtos\large_046.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_047.jpg" Link="wwwroot\images\produtos\large_047.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_048.jpg" Link="wwwroot\images\produtos\large_048.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_049.jpg" Link="wwwroot\images\produtos\large_049.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_050.jpg" Link="wwwroot\images\produtos\large_050.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_051.jpg" Link="wwwroot\images\produtos\large_051.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_052.jpg" Link="wwwroot\images\produtos\large_052.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_053.jpg" Link="wwwroot\images\produtos\large_053.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_054.jpg" Link="wwwroot\images\produtos\large_054.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_055.jpg" Link="wwwroot\images\produtos\large_055.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_056.jpg" Link="wwwroot\images\produtos\large_056.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_057.jpg" Link="wwwroot\images\produtos\large_057.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_058.jpg" Link="wwwroot\images\produtos\large_058.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_059.jpg" Link="wwwroot\images\produtos\large_059.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_060.jpg" Link="wwwroot\images\produtos\large_060.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_061.jpg" Link="wwwroot\images\produtos\large_061.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_062.jpg" Link="wwwroot\images\produtos\large_062.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_063.jpg" Link="wwwroot\images\produtos\large_063.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_064.jpg" Link="wwwroot\images\produtos\large_064.jpg" />
-    <Content Include="..\..\..\_Recursos\produtos\large_065.jpg" Link="wwwroot\images\produtos\large_065.jpg" />
+    <None Remove="pipeline.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="..\..\..\_Recursos\produtos\livros.txt" Link="wwwroot\images\produtos\livros.txt" />
   </ItemGroup>
 

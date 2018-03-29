@@ -41,10 +41,17 @@ namespace CasaDoCodigo
 
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+
+
+
+
+        // Este método é chamado pelo runtime.
+        // Use este método para configurar o pipeline de requisições HTTP.
+        ///<image url="C:\Users\marce\Documents\GitHub\aspnetcore2-parte2-estudio\Aulas\Aula1\CasaDoCodigo\pipeline.png"/>
         public void Configure(IApplicationBuilder app, IHostingEnvironment env,
             IServiceProvider serviceProvider)
         {
+
             if (env.IsDevelopment())
             {
                 app.UseBrowserLink();
@@ -64,9 +71,11 @@ namespace CasaDoCodigo
                     template: "{controller=Pedido}/{action=Carrossel}/{codigo?}");
             });
 
+            ///<image url="C:\Users\marce\Documents\GitHub\aspnetcore2-parte2-estudio\Aulas\Aula1\CasaDoCodigo\middlewares.png"/>
+
+
             serviceProvider.GetService<IDataService>().InicializaDB();
 
-            ///<image url=""/>
         }
     }
 
