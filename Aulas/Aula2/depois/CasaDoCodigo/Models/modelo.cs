@@ -22,10 +22,13 @@ namespace CasaDoCodigo.Models
         }
 
         [Required]
+        [DataMember]
         public string Codigo { get; private set; }
         [Required]
+        [DataMember]
         public string Nome { get; private set; }
         [Required]
+        [DataMember]
         public decimal Preco { get; private set; }
 
         public Produto(string codigo, string nome, decimal preco)
@@ -68,10 +71,13 @@ namespace CasaDoCodigo.Models
         [Required]
         public Pedido Pedido { get; private set; }
         [Required]
+        [DataMember]
         public Produto Produto { get; private set; }
         [Required]
+        [DataMember]
         public int Quantidade { get; private set; }
         [Required]
+        [DataMember]
         public decimal PrecoUnitario { get; private set; }
 
         public ItemPedido()
@@ -85,6 +91,11 @@ namespace CasaDoCodigo.Models
             Produto = produto;
             Quantidade = quantidade;
             PrecoUnitario = precoUnitario;
+        }
+
+        public void AtualizaQuantidade(int quantidade)
+        {
+            this.Quantidade = quantidade;
         }
     }
 
