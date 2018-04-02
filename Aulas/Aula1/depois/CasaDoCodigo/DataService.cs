@@ -1,5 +1,6 @@
 ﻿using CasaDoCodigo.Models;
 using CasaDoCodigo.Repositories;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.IO;
@@ -20,7 +21,7 @@ namespace CasaDoCodigo
 
         public void InicializaDB()
         {
-            contexto.Database.EnsureCreated();
+            contexto.Database.Migrate();
 
             List<Livro> livros = GetLivros();
 
