@@ -26,7 +26,7 @@
                     $('#endereco').val(response.logradouro + ', ');
                     $('#bairro').val(response.bairro);
                     $('#municipio').val(response.localidade);
-                    $('#uf').val(response.uf);
+                    $('#UF').val(response.uf);
                     $('#endereco').focus();
                 }.bind(this))
 
