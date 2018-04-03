@@ -74,11 +74,11 @@ namespace CasaDoCodigo.Controllers
             return pedidoRepository.UpdateQuantidade(input);
         }
 
-        [HttpPost]
+        [HttpGet]
         [ValidateAntiForgeryToken]
-        public Endereco GetEndereco([FromBody]Endereco endereco)
+        public Endereco GetEndereco(string cep)
         {
-            return new ViaCEP().GetEndereco(endereco.CEP);
+            return new ViaCEP().GetEndereco(cep);
         }
     }
 }
