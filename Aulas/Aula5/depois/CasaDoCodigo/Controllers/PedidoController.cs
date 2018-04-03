@@ -27,7 +27,7 @@ namespace CasaDoCodigo.Controllers
 
         public IActionResult Carrossel()
         {
-            return View(produtoRepository.GetProdutos());
+            return ViewComCarrinho(produtoRepository.GetProdutos());
         }
 
         public IActionResult Carrinho(string codigo)
@@ -37,7 +37,7 @@ namespace CasaDoCodigo.Controllers
                 pedidoRepository.AddItem(codigo);
             }
 
-            return View(pedidoRepository.GetCarrinhoViewModel());
+            return ViewComCarrinho(pedidoRepository.GetCarrinhoViewModel());
         }
 
         public IActionResult Cadastro()
@@ -49,7 +49,7 @@ namespace CasaDoCodigo.Controllers
             }
             else
             {
-                return View(pedido.Cadastro);
+                return ViewComCarrinho(pedido.Cadastro);
             }
         }
 
@@ -59,7 +59,7 @@ namespace CasaDoCodigo.Controllers
         {
             if (ModelState.IsValid)
             {
-                return View(pedidoRepository.UpdateCadastro(cadastro));
+                return ViewComCarrinho(pedidoRepository.UpdateCadastro(cadastro));
             }
             else
             {
@@ -79,6 +79,17 @@ namespace CasaDoCodigo.Controllers
         public Endereco GetEndereco(string cep)
         {
             return new ViaCEP().GetEndereco(cep);
+        }
+
+        private ViewResult ViewComCarrinho(object model)
+        {
+            SetQtdProdutos();
+            return View(model);
+        }
+
+        private void SetQtdProdutos()
+        {
+            ViewData["QtdProdutos"] = pedidoRepository.GetPedido().Itens.Count();
         }
     }
 }

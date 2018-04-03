@@ -80,6 +80,8 @@
             + (carrinhoViewModel.itens.length > 1
                 ? 'itens' : 'item');
         $('[numero-itens]').html(texto);
+
+        $('#carrinho-qtd').html(carrinhoViewModel.itens.length);
     }
 }
 
