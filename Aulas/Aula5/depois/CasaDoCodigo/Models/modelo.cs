@@ -47,33 +47,33 @@ namespace CasaDoCodigo.Models
 
         public virtual Pedido Pedido { get; set; }
 
-        [Required(ErrorMessage = "Nome é obrigatório")]
+        [Required(ErrorMessage = "'{0}' é obrigatório")]
         [StringLength(50, MinimumLength = 5,
-            ErrorMessage = "Nome deve ter entre 5 e 50 caracteres")]
+            ErrorMessage = "{0} deve ter entre {2} e {1} caracteres")]
         [DataMember]
         public string Nome { get; set; } = "";
-        [Required]
+        [Required(ErrorMessage = "'{0}' é obrigatório")]
         [DataMember]
         public string Email { get; set; } = "";
-        [Required]
+        [Required(ErrorMessage = "'{0}' é obrigatório")]
         [DataMember]
         public string Telefone { get; set; } = "";
-        [Required]
+        [Required(ErrorMessage = "'{0}' é obrigatório")]
         [DataMember]
         public string Endereco { get; set; } = "";
-        [Required]
+        [Required(ErrorMessage = "'{0}' é obrigatório")]
         [DataMember]
         public string Complemento { get; set; } = "";
-        [Required]
+        [Required(ErrorMessage = "'{0}' é obrigatório")]
         [DataMember]
         public string Bairro { get; set; } = "";
-        [Required]
+        [Required(ErrorMessage = "'{0}' é obrigatório")]
         [DataMember]
         public string Municipio { get; set; } = "";
-        [Required]
+        [Required(ErrorMessage = "'{0}' é obrigatório")]
         [DataMember]
         public string UF { get; set; } = "";
-        [Required]
+        [Required(ErrorMessage = "'{0}' é obrigatório")]
         [DataMember]
         public string CEP { get; set; } = "";
 
