@@ -79,15 +79,15 @@ namespace CasaDoCodigo.Models
 
         public void Update(Cadastro novoCadastro)
         {
-            Nome = this.Nome;
-            Email = this.Email;
-            Telefone = this.Telefone;
-            Endereco = this.Endereco;
-            Complemento = this.Complemento;
-            Bairro = this.Bairro;
-            Municipio = this.Municipio;
-            UF = this.UF;
-            CEP = this.CEP;
+            Nome = novoCadastro.Nome;
+            Email = novoCadastro.Email;
+            Telefone = novoCadastro.Telefone;
+            Endereco = novoCadastro.Endereco;
+            Complemento = novoCadastro.Complemento;
+            Bairro = novoCadastro.Bairro;
+            Municipio = novoCadastro.Municipio;
+            UF = novoCadastro.UF;
+            CEP = novoCadastro.CEP;
         }
     }
 
