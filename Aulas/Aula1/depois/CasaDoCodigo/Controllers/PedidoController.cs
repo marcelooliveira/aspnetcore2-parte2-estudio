@@ -46,7 +46,7 @@ namespace CasaDoCodigo.Controllers
         }
 
         [HttpPost]
-        public void PostQuantidade(ItemPedido input)
+        public void PostQuantidade([FromBody]ItemPedido input)
         {
 
         }
