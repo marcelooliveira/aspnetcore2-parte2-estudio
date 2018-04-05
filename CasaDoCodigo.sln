@@ -3,104 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Recursos", "_Recursos", "{A28E998F-BEBB-4D44-B58E-FDC4305848AB}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{89FD94ED-6C15-4940-B808-FA455F1F9A2F}"
-	ProjectSection(SolutionItems) = preProject
-		_Recursos\css\site.css = _Recursos\css\site.css
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dados", "dados", "{7B729AFF-9C27-42AA-9EAE-1CB9C47AAEE6}"
-	ProjectSection(SolutionItems) = preProject
-		_Recursos\dados\livros.json = _Recursos\dados\livros.json
-		_Recursos\dados\modelo.cs = _Recursos\dados\modelo.cs
-		_Recursos\dados\modelo.png = _Recursos\dados\modelo.png
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "logos", "logos", "{28F86A0D-F893-41A4-ACA9-ABF0D250145A}"
-	ProjectSection(SolutionItems) = preProject
-		_Recursos\logos\logo.png = _Recursos\logos\logo.png
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "produtos", "produtos", "{1999EB61-BD5A-4CFC-8BC7-EB1B9B857DBC}"
-	ProjectSection(SolutionItems) = preProject
-		_Recursos\produtos\large_001.jpg = _Recursos\produtos\large_001.jpg
-		_Recursos\produtos\large_002.jpg = _Recursos\produtos\large_002.jpg
-		_Recursos\produtos\large_003.jpg = _Recursos\produtos\large_003.jpg
-		_Recursos\produtos\large_004.jpg = _Recursos\produtos\large_004.jpg
-		_Recursos\produtos\large_005.jpg = _Recursos\produtos\large_005.jpg
-		_Recursos\produtos\large_006.jpg = _Recursos\produtos\large_006.jpg
-		_Recursos\produtos\large_007.jpg = _Recursos\produtos\large_007.jpg
-		_Recursos\produtos\large_008.jpg = _Recursos\produtos\large_008.jpg
-		_Recursos\produtos\large_009.jpg = _Recursos\produtos\large_009.jpg
-		_Recursos\produtos\large_010.jpg = _Recursos\produtos\large_010.jpg
-		_Recursos\produtos\large_011.jpg = _Recursos\produtos\large_011.jpg
-		_Recursos\produtos\large_012.jpg = _Recursos\produtos\large_012.jpg
-		_Recursos\produtos\large_013.jpg = _Recursos\produtos\large_013.jpg
-		_Recursos\produtos\large_014.jpg = _Recursos\produtos\large_014.jpg
-		_Recursos\produtos\large_015.jpg = _Recursos\produtos\large_015.jpg
-		_Recursos\produtos\large_016.jpg = _Recursos\produtos\large_016.jpg
-		_Recursos\produtos\large_017.jpg = _Recursos\produtos\large_017.jpg
-		_Recursos\produtos\large_018.jpg = _Recursos\produtos\large_018.jpg
-		_Recursos\produtos\large_019.jpg = _Recursos\produtos\large_019.jpg
-		_Recursos\produtos\large_020.jpg = _Recursos\produtos\large_020.jpg
-		_Recursos\produtos\large_021.jpg = _Recursos\produtos\large_021.jpg
-		_Recursos\produtos\large_022.jpg = _Recursos\produtos\large_022.jpg
-		_Recursos\produtos\large_023.jpg = _Recursos\produtos\large_023.jpg
-		_Recursos\produtos\large_024.jpg = _Recursos\produtos\large_024.jpg
-		_Recursos\produtos\large_025.jpg = _Recursos\produtos\large_025.jpg
-		_Recursos\produtos\large_026.jpg = _Recursos\produtos\large_026.jpg
-		_Recursos\produtos\large_027.jpg = _Recursos\produtos\large_027.jpg
-		_Recursos\produtos\large_028.jpg = _Recursos\produtos\large_028.jpg
-		_Recursos\produtos\large_029.jpg = _Recursos\produtos\large_029.jpg
-		_Recursos\produtos\large_030.jpg = _Recursos\produtos\large_030.jpg
-		_Recursos\produtos\large_031.jpg = _Recursos\produtos\large_031.jpg
-		_Recursos\produtos\large_032.jpg = _Recursos\produtos\large_032.jpg
-		_Recursos\produtos\large_033.jpg = _Recursos\produtos\large_033.jpg
-		_Recursos\produtos\large_034.jpg = _Recursos\produtos\large_034.jpg
-		_Recursos\produtos\large_035.jpg = _Recursos\produtos\large_035.jpg
-		_Recursos\produtos\large_036.jpg = _Recursos\produtos\large_036.jpg
-		_Recursos\produtos\large_037.jpg = _Recursos\produtos\large_037.jpg
-		_Recursos\produtos\large_038.jpg = _Recursos\produtos\large_038.jpg
-		_Recursos\produtos\large_039.jpg = _Recursos\produtos\large_039.jpg
-		_Recursos\produtos\large_040.jpg = _Recursos\produtos\large_040.jpg
-		_Recursos\produtos\large_041.jpg = _Recursos\produtos\large_041.jpg
-		_Recursos\produtos\large_042.jpg = _Recursos\produtos\large_042.jpg
-		_Recursos\produtos\large_043.jpg = _Recursos\produtos\large_043.jpg
-		_Recursos\produtos\large_044.jpg = _Recursos\produtos\large_044.jpg
-		_Recursos\produtos\large_045.jpg = _Recursos\produtos\large_045.jpg
-		_Recursos\produtos\large_046.jpg = _Recursos\produtos\large_046.jpg
-		_Recursos\produtos\large_047.jpg = _Recursos\produtos\large_047.jpg
-		_Recursos\produtos\large_048.jpg = _Recursos\produtos\large_048.jpg
-		_Recursos\produtos\large_049.jpg = _Recursos\produtos\large_049.jpg
-		_Recursos\produtos\large_050.jpg = _Recursos\produtos\large_050.jpg
-		_Recursos\produtos\large_051.jpg = _Recursos\produtos\large_051.jpg
-		_Recursos\produtos\large_052.jpg = _Recursos\produtos\large_052.jpg
-		_Recursos\produtos\large_053.jpg = _Recursos\produtos\large_053.jpg
-		_Recursos\produtos\large_054.jpg = _Recursos\produtos\large_054.jpg
-		_Recursos\produtos\large_055.jpg = _Recursos\produtos\large_055.jpg
-		_Recursos\produtos\large_056.jpg = _Recursos\produtos\large_056.jpg
-		_Recursos\produtos\large_057.jpg = _Recursos\produtos\large_057.jpg
-		_Recursos\produtos\large_058.jpg = _Recursos\produtos\large_058.jpg
-		_Recursos\produtos\large_059.jpg = _Recursos\produtos\large_059.jpg
-		_Recursos\produtos\large_060.jpg = _Recursos\produtos\large_060.jpg
-		_Recursos\produtos\large_061.jpg = _Recursos\produtos\large_061.jpg
-		_Recursos\produtos\large_062.jpg = _Recursos\produtos\large_062.jpg
-		_Recursos\produtos\large_063.jpg = _Recursos\produtos\large_063.jpg
-		_Recursos\produtos\large_064.jpg = _Recursos\produtos\large_064.jpg
-		_Recursos\produtos\large_065.jpg = _Recursos\produtos\large_065.jpg
-		_Recursos\produtos\livros.txt = _Recursos\produtos\livros.txt
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "views-com-bootstrap", "views-com-bootstrap", "{67BBCF24-3967-443D-97DE-559909FAF72A}"
-	ProjectSection(SolutionItems) = preProject
-		_Recursos\views-com-bootstrap\_Layout.cshtml = _Recursos\views-com-bootstrap\_Layout.cshtml
-		_Recursos\views-com-bootstrap\Cadastro.cshtml = _Recursos\views-com-bootstrap\Cadastro.cshtml
-		_Recursos\views-com-bootstrap\Carrinho.cshtml = _Recursos\views-com-bootstrap\Carrinho.cshtml
-		_Recursos\views-com-bootstrap\Carrossel.cshtml = _Recursos\views-com-bootstrap\Carrossel.cshtml
-		_Recursos\views-com-bootstrap\Resumo.cshtml = _Recursos\views-com-bootstrap\Resumo.cshtml
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aulas", "Aulas", "{6474456B-3094-4366-B537-73466B93B359}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aula1", "Aula1", "{DB8DFF59-3111-4662-AA62-AE4381A34539}"
@@ -112,46 +14,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "depois", "depois", "{852D9B19-4B78-4ECC-BFD7-96787031D41A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasaDoCodigo.aula1.depois", "Aulas\Aula1\depois\CasaDoCodigo\CasaDoCodigo.aula1.depois.csproj", "{600A682A-DB98-424E-A06B-E5342AF7BD14}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aula2", "Aula2", "{4F4B3406-8A03-4B91-96E0-F97E20600D19}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "antes", "antes", "{D7E61C25-9482-4A99-B2ED-553D65610307}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "depois", "depois", "{04FB4B5B-DF10-4C24-B7B9-97AEC3464BAE}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasaDoCodigo.aula2.antes", "Aulas\Aula2\antes\CasaDoCodigo\CasaDoCodigo.aula2.antes.csproj", "{7D6D365C-830F-44F8-8900-BF624E151FA1}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasaDoCodigo.aula2.depois", "Aulas\Aula2\depois\CasaDoCodigo\CasaDoCodigo.aula2.depois.csproj", "{85D870AB-86AD-4C0D-A6D9-5493A18E1DF2}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aula3", "Aula3", "{0383197E-C843-43DB-BBDD-03659FE1CED9}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "antes", "antes", "{A99C4554-BF94-48EC-81BA-7C9E577637E0}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "depois", "depois", "{B0263143-F6AF-4B6D-A9F4-849169D637F4}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasaDoCodigo.aula3.antes", "Aulas\Aula3\antes\CasaDoCodigo\CasaDoCodigo.aula3.antes.csproj", "{B6B21AAC-2264-4048-BC6E-86545C8FE524}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasaDoCodigo.aula3.depois", "Aulas\Aula3\depois\CasaDoCodigo\CasaDoCodigo.aula3.depois.csproj", "{C0D36637-1BB4-4462-911F-42030AD9B656}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aula4", "Aula4", "{8DBE5EEC-6D8A-4287-BAD3-B715416C6792}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "antes", "antes", "{803254F3-F6C7-460A-ADA6-F147EE220505}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "depois", "depois", "{15530245-6D63-4700-B1A2-55A1EFABDCDF}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasaDoCodigo.aula4.antes", "Aulas\Aula4\antes\CasaDoCodigo\CasaDoCodigo.aula4.antes.csproj", "{024F8ED7-06ED-4047-8625-80752E90BC19}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasaDoCodigo.aula4.depois", "Aulas\Aula4\depois\CasaDoCodigo\CasaDoCodigo.aula4.depois.csproj", "{282FD28C-825D-4908-B534-70BC9F5F03B4}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aula5", "Aula5", "{CB6675EA-01CE-4F43-9690-A10936B80466}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "antes", "antes", "{FEF94A51-9C2D-4160-9E50-34F14521D969}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "depois", "depois", "{E4A999A4-A1BB-4413-9838-F73DB70E6628}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasaDoCodigo.aula5.antes", "Aulas\Aula5\antes\CasaDoCodigo\CasaDoCodigo.aula5.antes.csproj", "{260B34A7-1CA2-4F09-B78D-754CACFECE02}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasaDoCodigo.aula5.depois", "Aulas\Aula5\depois\CasaDoCodigo\CasaDoCodigo.aula5.depois.csproj", "{8673D32F-0BC4-49E2-AF03-250D41C6728C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -167,73 +29,16 @@ Global
 		{600A682A-DB98-424E-A06B-E5342AF7BD14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{600A682A-DB98-424E-A06B-E5342AF7BD14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{600A682A-DB98-424E-A06B-E5342AF7BD14}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7D6D365C-830F-44F8-8900-BF624E151FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7D6D365C-830F-44F8-8900-BF624E151FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7D6D365C-830F-44F8-8900-BF624E151FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7D6D365C-830F-44F8-8900-BF624E151FA1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{85D870AB-86AD-4C0D-A6D9-5493A18E1DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{85D870AB-86AD-4C0D-A6D9-5493A18E1DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{85D870AB-86AD-4C0D-A6D9-5493A18E1DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{85D870AB-86AD-4C0D-A6D9-5493A18E1DF2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B6B21AAC-2264-4048-BC6E-86545C8FE524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B6B21AAC-2264-4048-BC6E-86545C8FE524}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B6B21AAC-2264-4048-BC6E-86545C8FE524}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B6B21AAC-2264-4048-BC6E-86545C8FE524}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C0D36637-1BB4-4462-911F-42030AD9B656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C0D36637-1BB4-4462-911F-42030AD9B656}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0D36637-1BB4-4462-911F-42030AD9B656}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C0D36637-1BB4-4462-911F-42030AD9B656}.Release|Any CPU.Build.0 = Release|Any CPU
-		{024F8ED7-06ED-4047-8625-80752E90BC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{024F8ED7-06ED-4047-8625-80752E90BC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{024F8ED7-06ED-4047-8625-80752E90BC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{024F8ED7-06ED-4047-8625-80752E90BC19}.Release|Any CPU.Build.0 = Release|Any CPU
-		{282FD28C-825D-4908-B534-70BC9F5F03B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{282FD28C-825D-4908-B534-70BC9F5F03B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{282FD28C-825D-4908-B534-70BC9F5F03B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{282FD28C-825D-4908-B534-70BC9F5F03B4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{260B34A7-1CA2-4F09-B78D-754CACFECE02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{260B34A7-1CA2-4F09-B78D-754CACFECE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{260B34A7-1CA2-4F09-B78D-754CACFECE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{260B34A7-1CA2-4F09-B78D-754CACFECE02}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8673D32F-0BC4-49E2-AF03-250D41C6728C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8673D32F-0BC4-49E2-AF03-250D41C6728C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8673D32F-0BC4-49E2-AF03-250D41C6728C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8673D32F-0BC4-49E2-AF03-250D41C6728C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{89FD94ED-6C15-4940-B808-FA455F1F9A2F} = {A28E998F-BEBB-4D44-B58E-FDC4305848AB}
-		{7B729AFF-9C27-42AA-9EAE-1CB9C47AAEE6} = {A28E998F-BEBB-4D44-B58E-FDC4305848AB}
-		{28F86A0D-F893-41A4-ACA9-ABF0D250145A} = {A28E998F-BEBB-4D44-B58E-FDC4305848AB}
-		{1999EB61-BD5A-4CFC-8BC7-EB1B9B857DBC} = {A28E998F-BEBB-4D44-B58E-FDC4305848AB}
-		{67BBCF24-3967-443D-97DE-559909FAF72A} = {A28E998F-BEBB-4D44-B58E-FDC4305848AB}
 		{DB8DFF59-3111-4662-AA62-AE4381A34539} = {6474456B-3094-4366-B537-73466B93B359}
 		{2EBF0A4B-E9C8-4A23-955D-129141D6F42E} = {DB8DFF59-3111-4662-AA62-AE4381A34539}
 		{0558CC9B-1009-4A9E-8172-B4F7CE65ACE0} = {2EBF0A4B-E9C8-4A23-955D-129141D6F42E}
 		{852D9B19-4B78-4ECC-BFD7-96787031D41A} = {DB8DFF59-3111-4662-AA62-AE4381A34539}
 		{600A682A-DB98-424E-A06B-E5342AF7BD14} = {852D9B19-4B78-4ECC-BFD7-96787031D41A}
-		{4F4B3406-8A03-4B91-96E0-F97E20600D19} = {6474456B-3094-4366-B537-73466B93B359}
-		{D7E61C25-9482-4A99-B2ED-553D65610307} = {4F4B3406-8A03-4B91-96E0-F97E20600D19}
-		{04FB4B5B-DF10-4C24-B7B9-97AEC3464BAE} = {4F4B3406-8A03-4B91-96E0-F97E20600D19}
-		{7D6D365C-830F-44F8-8900-BF624E151FA1} = {D7E61C25-9482-4A99-B2ED-553D65610307}
-		{85D870AB-86AD-4C0D-A6D9-5493A18E1DF2} = {04FB4B5B-DF10-4C24-B7B9-97AEC3464BAE}
-		{0383197E-C843-43DB-BBDD-03659FE1CED9} = {6474456B-3094-4366-B537-73466B93B359}
-		{A99C4554-BF94-48EC-81BA-7C9E577637E0} = {0383197E-C843-43DB-BBDD-03659FE1CED9}
-		{B0263143-F6AF-4B6D-A9F4-849169D637F4} = {0383197E-C843-43DB-BBDD-03659FE1CED9}
-		{B6B21AAC-2264-4048-BC6E-86545C8FE524} = {A99C4554-BF94-48EC-81BA-7C9E577637E0}
-		{C0D36637-1BB4-4462-911F-42030AD9B656} = {B0263143-F6AF-4B6D-A9F4-849169D637F4}
-		{8DBE5EEC-6D8A-4287-BAD3-B715416C6792} = {6474456B-3094-4366-B537-73466B93B359}
-		{803254F3-F6C7-460A-ADA6-F147EE220505} = {8DBE5EEC-6D8A-4287-BAD3-B715416C6792}
-		{15530245-6D63-4700-B1A2-55A1EFABDCDF} = {8DBE5EEC-6D8A-4287-BAD3-B715416C6792}
-		{024F8ED7-06ED-4047-8625-80752E90BC19} = {803254F3-F6C7-460A-ADA6-F147EE220505}
-		{282FD28C-825D-4908-B534-70BC9F5F03B4} = {15530245-6D63-4700-B1A2-55A1EFABDCDF}
-		{CB6675EA-01CE-4F43-9690-A10936B80466} = {6474456B-3094-4366-B537-73466B93B359}
-		{FEF94A51-9C2D-4160-9E50-34F14521D969} = {CB6675EA-01CE-4F43-9690-A10936B80466}
-		{E4A999A4-A1BB-4413-9838-F73DB70E6628} = {CB6675EA-01CE-4F43-9690-A10936B80466}
-		{260B34A7-1CA2-4F09-B78D-754CACFECE02} = {FEF94A51-9C2D-4160-9E50-34F14521D969}
-		{8673D32F-0BC4-49E2-AF03-250D41C6728C} = {E4A999A4-A1BB-4413-9838-F73DB70E6628}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6FED210B-3460-45CF-9C4D-877F0D63546F}
