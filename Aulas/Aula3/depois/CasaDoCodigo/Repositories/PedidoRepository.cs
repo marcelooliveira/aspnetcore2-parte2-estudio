@@ -1,5 +1,4 @@
 ﻿using CasaDoCodigo.Models;
-using CasaDoCodigo.Models.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -13,21 +12,16 @@ namespace CasaDoCodigo.Repositories
     {
         Pedido GetPedido();
         void AddItem(string codigo);
-        CarrinhoViewModel GetCarrinhoViewModel();
-        UpdateItemPedidoResponse UpdateQuantidade(ItemPedido itemPedido);
     }
 
     public class PedidoRepository : BaseRepository<Pedido>, IPedidoRepository
     {
-        private readonly IHttpContextAccessor contextAccessor;
-        private readonly IItemPedidoRepository itemPedidoRepository;
+        private readonly IHttpContextAccessor contextAccessor; 
 
         public PedidoRepository(ApplicationContext contexto,
-            IHttpContextAccessor contextAccessor,
-            IItemPedidoRepository itemPedidoRepository) : base(contexto)
+            IHttpContextAccessor contextAccessor) : base(contexto)
         {
             this.contextAccessor = contextAccessor;
-            this.itemPedidoRepository = itemPedidoRepository;
         }
 
         public void AddItem(string codigo)
@@ -58,11 +52,6 @@ namespace CasaDoCodigo.Repositories
             }
         }
 
-        public CarrinhoViewModel GetCarrinhoViewModel()
-        {
-            return new CarrinhoViewModel(this.GetPedido().Itens);
-        }
-
         public Pedido GetPedido()
         {
             var pedidoId = GetPedidoId();
@@ -91,25 +80,6 @@ namespace CasaDoCodigo.Repositories
         private void SetPedidoId(int pedidoId)
         {
             contextAccessor.HttpContext.Session.SetInt32("pedidoId", pedidoId);
-        }
-
-        public UpdateItemPedidoResponse UpdateQuantidade(ItemPedido itemPedido)
-        {
-            ItemPedido itemPedidoDB = itemPedidoRepository.Get(itemPedido);
-
-            if (itemPedidoDB != null)
-            {
-                itemPedidoDB.AtualizaQuantidade(itemPedido.Quantidade);
-
-                if (itemPedidoDB.Quantidade == 0)
-                {
-                    itemPedidoRepository.Remove(itemPedidoDB);
-                }
-
-                contexto.SaveChanges();
-            }
-
-            return new UpdateItemPedidoResponse(itemPedidoDB, new CarrinhoViewModel(this.GetPedido().Itens));
         }
     }
 }

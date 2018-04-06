@@ -1,5 +1,4 @@
 ﻿using CasaDoCodigo.Models;
-using CasaDoCodigo.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +8,7 @@ namespace CasaDoCodigo.Repositories
 {
     public interface IItemPedidoRepository
     {
-        ItemPedido Get(ItemPedido itemPedido);
-        void Remove(ItemPedido itemPedidoDB);
+        void UpdateQuantidade(ItemPedido itemPedido);
     }
 
     public class ItemPedidoRepository : BaseRepository<ItemPedido>, IItemPedidoRepository
@@ -19,17 +17,19 @@ namespace CasaDoCodigo.Repositories
         {
         }
 
-        public ItemPedido Get(ItemPedido itemPedido)
+        public void UpdateQuantidade(ItemPedido itemPedido)
         {
-            return dbSet
-                .Where(i => i.Id == itemPedido.Id)
+            var itemPedidoDB =
+            dbSet
+                .Where(ip => ip.Id == itemPedido.Id)
                 .SingleOrDefault();
-        }
 
-        public void Remove(ItemPedido itemPedidoDB)
-        {
-            dbSet.Remove(itemPedidoDB);
-            contexto.SaveChanges();
+            if (itemPedidoDB != null)
+            {
+                itemPedidoDB.AtualizaQuantidade(itemPedido.Quantidade);
+
+                contexto.SaveChanges();
+            }
         }
     }
 }

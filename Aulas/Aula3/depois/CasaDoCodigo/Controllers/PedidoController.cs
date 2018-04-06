@@ -35,7 +35,7 @@ namespace CasaDoCodigo.Controllers
                 pedidoRepository.AddItem(codigo);
             }
 
-            return View(pedidoRepository.GetCarrinhoViewModel());
+            return View(pedidoRepository.GetPedido().Itens);
         }
 
         public IActionResult Cadastro()
@@ -49,9 +49,9 @@ namespace CasaDoCodigo.Controllers
         }
 
         [HttpPost]
-        public UpdateItemPedidoResponse PostQuantidade([FromBody]ItemPedido input)
+        public void UpdateQuantidade([FromBody]ItemPedido itemPedido)
         {
-            return pedidoRepository.UpdateQuantidade(input);
+            itemPedidoRepository.UpdateQuantidade(itemPedido);
         }
     }
 }
