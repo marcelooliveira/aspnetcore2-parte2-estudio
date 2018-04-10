@@ -7,8 +7,13 @@ namespace CasaDoCodigo.Models.ViewModels
 {
     public class CarrinhoViewModel
     {
-        public List<ItemPedido> Itens { get; private set; }
-        public decimal Total => Itens.Sum(i => i.Subtotal);
-        public CarrinhoViewModel(List<ItemPedido> itens) => this.Itens = itens;
+        public CarrinhoViewModel(IList<ItemPedido> itens)
+        {
+            Itens = itens;
+        }
+
+        public IList<ItemPedido> Itens { get; }
+
+        public decimal Total => Itens.Sum(i => i.Quantidade * i.PrecoUnitario);
     }
 }

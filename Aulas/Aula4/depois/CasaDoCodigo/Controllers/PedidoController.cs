@@ -36,40 +36,25 @@ namespace CasaDoCodigo.Controllers
                 pedidoRepository.AddItem(codigo);
             }
 
-            return View(pedidoRepository.GetCarrinhoViewModel());
+            List<ItemPedido> itens = pedidoRepository.GetPedido().Itens;
+            CarrinhoViewModel carrinhoViewModel = new CarrinhoViewModel(itens);
+            return base.View(carrinhoViewModel);
         }
 
         public IActionResult Cadastro()
         {
-            Pedido pedido = pedidoRepository.GetPedido();
-            if (pedido == null)
-            {
-                return RedirectToAction("Carrossel");
-            }
-            else
-            {
-                return View(pedido.Cadastro);
-            }
+            return View();
+        }
+
+        public IActionResult Resumo()
+        {
+            return View(pedidoRepository.GetPedido());
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Resumo(Cadastro cadastro)
+        public UpdateQuantidadeResponse UpdateQuantidade([FromBody]ItemPedido itemPedido)
         {
-            if (ModelState.IsValid)
-            {
-                return View(pedidoRepository.UpdateCadastro(cadastro));
-            }
-            else
-            {
-                return RedirectToAction("Cadastro");
-            }
-        }
-
-        [HttpPost]
-        public UpdateItemPedidoResponse PostQuantidade([FromBody]ItemPedido input)
-        {
-            return pedidoRepository.UpdateQuantidade(input);
+            return pedidoRepository.UpdateQuantidade(itemPedido);
         }
     }
 }

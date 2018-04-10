@@ -22,13 +22,10 @@ namespace CasaDoCodigo.Models
         }
 
         [Required]
-        [DataMember]
         public string Codigo { get; private set; }
         [Required]
-        [DataMember]
         public string Nome { get; private set; }
         [Required]
-        [DataMember]
         public decimal Preco { get; private set; }
 
         public Produto(string codigo, string nome, decimal preco)
@@ -46,54 +43,31 @@ namespace CasaDoCodigo.Models
         }
 
         public virtual Pedido Pedido { get; set; }
-
-        [Required(ErrorMessage = "Nome é obrigatório")]
-        [StringLength(50, MinimumLength = 5,
-            ErrorMessage = "Nome deve ter entre 5 e 50 caracteres")]
-        [DataMember]
+        [Required]
         public string Nome { get; set; } = "";
         [Required]
-        [DataMember]
         public string Email { get; set; } = "";
         [Required]
-        [DataMember]
         public string Telefone { get; set; } = "";
         [Required]
-        [DataMember]
         public string Endereco { get; set; } = "";
         [Required]
-        [DataMember]
         public string Complemento { get; set; } = "";
         [Required]
-        [DataMember]
         public string Bairro { get; set; } = "";
         [Required]
-        [DataMember]
         public string Municipio { get; set; } = "";
         [Required]
-        [DataMember]
         public string UF { get; set; } = "";
         [Required]
-        [DataMember]
         public string CEP { get; set; } = "";
-
-        public void Update(Cadastro novoCadastro)
-        {
-            Nome = novoCadastro.Nome;
-            Email = novoCadastro.Email;
-            Telefone = novoCadastro.Telefone;
-            Endereco = novoCadastro.Endereco;
-            Complemento = novoCadastro.Complemento;
-            Bairro = novoCadastro.Bairro;
-            Municipio = novoCadastro.Municipio;
-            UF = novoCadastro.UF;
-            CEP = novoCadastro.CEP;
-        }
     }
 
+    [DataContract]
     public class ItemPedido : BaseModel
-    {
+    {   
         [Required]
+        [DataMember]
         public Pedido Pedido { get; private set; }
         [Required]
         [DataMember]
@@ -120,9 +94,9 @@ namespace CasaDoCodigo.Models
             PrecoUnitario = precoUnitario;
         }
 
-        public void AtualizaQuantidade(int quantidade)
+        internal void AtualizaQuantidade(int quantidade)
         {
-            this.Quantidade = quantidade;
+            Quantidade = quantidade;
         }
     }
 
@@ -138,10 +112,8 @@ namespace CasaDoCodigo.Models
             Cadastro = cadastro;
         }
 
-        [DataMember]
         public List<ItemPedido> Itens { get; private set; } = new List<ItemPedido>();
         [Required]
-        [DataMember]
         public virtual Cadastro Cadastro { get; private set; }
     }
 }
